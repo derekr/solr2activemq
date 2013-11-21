@@ -11,7 +11,7 @@ An Apache Solr Handler capable of sending queries to an Apache ActiveMQ broker
 Move the solr2activemq-{version}-jar-with-dependencies.jar to your {SOLR_HOME}/lib folder
 
 ## Configuration
-Configuration is pretty easy, you just need to add the configuration file to your solrconfig.xml
+Configuration is pretty easy, you just need to add the configuration line to your solrconfig.xml
 ```
 <solrToActiveMQConfig activeMQBrokerUri="localhost" activeMQBrokerPort="61616" activeMQBrokerDestinationType="queue" activeMQBrokerDestinationName="test_queue" solrHostname="localhost" solrPort="8983" solrPoolname="default" solrCorename="collection"/>
 ```  
