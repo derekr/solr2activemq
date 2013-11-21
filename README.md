@@ -1,4 +1,4 @@
 solr2activemq
 =============
 
-A solr component that sends queries to an activemq queue or topic
+A solr handler that sends queries to an activemq queue or topic
