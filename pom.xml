@@ -59,7 +59,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>com.solr2activemq.</mainClass>
+                            <mainClass>com.solr2activemq.SolrToActiveMQHandler</mainClass>
                         </manifest>
                     </archive>
                     <descriptorRefs>
