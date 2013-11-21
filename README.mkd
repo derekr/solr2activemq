@@ -3,7 +3,7 @@ An Apache Solr Handler capable of sending queries to an Apache ActiveMQ broker
 ## Requirements
 * Apache Solr 3.6.2 [i will soon create profiles to switch between versions]
 * ActiveMQ broker
-* maven (>=2)
+* Maven (>=2)
 
 ## Installation
 	mvn clean install
